@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    
+}
+header div{
+    float: left;
+}
+.logo img{
+    width: 200px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 200px;
+}
+header .nevbar{
+    position: absolute;
+    right: 250px;
+    top: 20px;
+}
+header .nevbar ul{
+    list-style: none;
+}
+header .nevbar ul li{
+    float: left;
+    padding-left: 50px;
+}
+header .nevbar ul li a{
+    text-decoration: none;
+    color: rgb(72, 26, 116);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+}
+header .nevbar ul li a:hover{
+    color: aqua;
+}
+/*section start */
+section{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.parsonaltext, .parsonalimage{
+    width: 50%;
+}
+.parsonaltext{
+    margin-left: 200px;
+    margin-bottom: 130px;
+}
+.parsonalimage{
+    padding-right: 0px;
+}
+.parsonalimage img{
+    max-width: 100%;
+    height: auto;
+}
+.parsonaltext h3{
+    font-weight: normal;
+}
+.parsonaltext h1{
+    font-size: 50px;
+}
+.parsonaltext p{
+    color: rgba(158, 154, 154, 0.781);
+    font-size: 18px;
+}
