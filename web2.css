@@ -75,3 +75,10 @@ section{
     color: rgba(158, 154, 154, 0.781);
     font-size: 18px;
 }
+.parsonaltext input{
+    padding: 8px 30px;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: rgb(106, 171, 245);
+}
