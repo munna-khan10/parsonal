@@ -52,6 +52,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 70px;
 }
 .parsonaltext, .parsonalimage{
     width: 40%;
