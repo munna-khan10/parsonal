@@ -154,13 +154,10 @@ section{
 
 .section3{
     width: 100%;
-    height: 300px;
-    margin: 0px auto;
-    text-align: center;
-}
-.section3 .hedingtext{
-    text-align: center;
+    height: 650px;
     margin: 0 auto;
+    text-align: center;
+    display: block;
 }
 .hedingtext h1{
     font-size: 40px;
@@ -169,4 +166,74 @@ section{
 .hedingtext p{
     width: 670px;
     color: rgba(0,0,0,0.4);
+    margin: 0 auto;
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+.sar1, .ser2{
+    width: 100%;
+    overflow: hidden;
+}
+.sar1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.ser2{
+    padding-top: 100px;
+}
+.service i{
+    font-size: 50px;
+    color: rgb(43, 143, 143);
+}
+.service p{
+    width: 400px;
+    margin: 0 auto;
+    color: rgba(0,0,0,0.4);
+}
+.sar1 div h1:hover{
+    color: rgba(130, 110, 245, 0.705);
+}
+.ser2 div h1:hover{
+    color: rgba(45, 136, 255, 0.705);
+}
+.sar1 div i:hover{
+    color: rgba(13, 243, 166, 0.959);
+}
+.ser2 div i:hover{
+    color: rgba(13, 243, 166, 0.959);
+}
+/*section three end*/
+
+/*section four start*/
+.section4{
+    width: 100%;
+    height: 300px;
+    background-color: #8293ff;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    
+}
+.section4 div{
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.section4 h1{
+    font-size: 30px;
+}
+.section4 h1{
+    color: #fff;
+    text-align: center;
+    line-height: 0px;
+    font-weight: bold;
+}
+.section4 p{
+    text-align: center;
+    color: #fff;
 }
