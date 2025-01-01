@@ -267,11 +267,18 @@ section{
     position: absolute;
     display: flex;
     text-align: center;
+    margin-left: 500px;
+    margin-top: 80px;
     
 }
 
 .section5 .hedd ul{
+    display: flex;
     list-style: none;
+}
+.hedd li{
+    text-align: center;
+    display: flex;
 }
 .section5 .hedd ul li{
     float: left;
@@ -280,5 +287,8 @@ section{
 .section5 .hedd ul li a{
     text-decoration: none;
     text-align: center;
-    margin: 0 auto;
+    color: rgba(0,0,0,0.7);
+}
+.hedd ul li a:hover{
+    color: #16d6dd;
 }
