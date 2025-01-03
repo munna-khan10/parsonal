@@ -336,11 +336,11 @@ section{
         line-height: 0;
     }
     .section6 .arifa p{
-        color: rgba(0,0,0,0.4);
+        color: rgba(0, 0, 0, 0.295);
         font-family: Arial, Helvetica, sans-serif;
     }
     .section6 .pricelist{
-        width: 75%;
+        width: 80%;
         height: 600px;
         display: flex;
         justify-content: space-around;
@@ -348,9 +348,48 @@ section{
     }
     .section6 .price1{
         width: 300px;
-        height: 450px;
-        background-color: #fff;
-        border: 2px solid rgba(0,0,0,0.4);
+        height: 580px;
+        background-color: #d3cfcf;
+        border: 1px solid rgba(231, 217, 217, 0.507);
         text-align: center;
         margin-top: 40px;
+        border-radius: 20px;
     }
+    .section6 .pricelist h1{
+        font-size: 60px;
+        padding-top: 6px;
+    }
+    .section6 .pricelist h2{
+        font-size: 40px;
+        font-weight: 300;
+    }
+    .section6 .pricelist h1, h2{
+        line-height: normal;
+    }
+    .section6 .pricelist .price1 hr{   
+        color:#fff;
+    }
+    .section6 .pricelist input{
+        outline: none;
+        padding: 6px 60px;
+        background-color: #16d6dd;
+        font-weight: bold;
+        font-size: 30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    .section6 .price1:hover{
+        background: linear-gradient(30deg, #8293ff 40%, #16d6dd 100%);
+        border-radius: 10px;
+        color: #fff;
+    }
+    .section6 .price1:hover input{
+        
+        background-color: #fff;
+    }
+
+    /* Priceing part End /*
+
+    /* footer Part Start /*
+
