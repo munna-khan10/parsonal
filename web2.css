@@ -150,6 +150,7 @@ section{
 .text2 a input:hover{
     background-color: rgb(0, 255, 255);
     border-radius: 10px;
+    cursor: pointer;
 }
 /*section three start*/
 
@@ -391,5 +392,39 @@ section{
 
     /* Priceing part End /*
 
-    /* footer Part Start /*
+    /* footer Part Start */
+footer{
+        width: 100%;
+        height: 300px;
+        background-color: #192a56;
+        position: absolute;
+        margin-top: 20%;
+        color: #fff;
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+footer .foot .foot1 p{
+    color: rgba(175, 171, 171, 0.7);
 
+}
+footer .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 180px 10px 10px;
+}
+footer .foot .foot1 button{
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 14px;
+    background-color:#16d6dd;
+}
