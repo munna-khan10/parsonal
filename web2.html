@@ -5,29 +5,244 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="web2.css">
     <script src="https://kit.fontawesome.com/2af5f0c1e1.js" crossorigin="anonymous"></script>
+    
     <title>Parsonal</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="image1.png" alt="Parsonal">
-        </div>
-        <div class="nevbar">
-            <input type="checkbox" id="chack">
-            <label for="chack" class="chackbtn">
-                <i class="fa-solid fa-list"></i>
+     <!--=============== HEADER ===============-->
+     <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="#" class="nav__logo">
+                    <i class="fa-solid fa-code"></i> CodeBox
+                </a>
 
-            </label>
-            <ul>
-                <li><a href="http://127.0.0.1:5500/web2.html">Home</a></li>
-                <li><a href="https://github.com/munna-khan10?tab=repositories">File</a></li>
-                <li><a href="https://apps.microsoft.com/detail/9n0dx20hk701?rtc=1&hl=en-us&gl=BD">Terminal</a></li>
-                <li><a href="#">Section</a></li>
-                <li><a href="#">Police</a></li>
-                <li><a href="https://chat.whatsapp.com/JbDPVYnKcVt3MjPMH7zvWd">Help</a></li>
-                <li><a href="http://127.0.0.1:5501/index.html">Others Store</a></li>
-            </ul>
-        </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-list"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#" class="nav__link">Home</a>
+                    </li>
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">                      
+                        <div class="nav__link dropdown__button">
+                            Discover <i class="fa-solid fa-caret-down"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="fa-solid fa-users"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Most viewed courses</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">HTML for beginners</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Advanced CSS</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">JavaScript</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="fa-solid fa-brain"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Popular courses</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Development with Flutter</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Web development with React</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Backend development expert</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="fa-solid fa-sitemap"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Careers</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Web development</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Applications development</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">UI/UX design</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Informatic security</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="fa-solid fa-passport"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Certifications</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Course certificates</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Free certifications</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!--=============== DROPDOWN 2 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Resources <i class="fa-solid fa-caret-down"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-code-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Web templates</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Free templates</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Premium templates</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-pen-nib-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Designs</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Web designs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">App designs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Component design</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-apps-2-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Others</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Recent blogs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Tutorial videos</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Webinar</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav__link">Pricing</a>
+                    </li>
+
+                    <!--=============== DROPDOWN 3 ===============-->
+                    <li class="dropdown__item">                        
+                        <div class="nav__link dropdown__button">
+                            Company <i class="fa-solid fa-caret-down"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="fa-solid fa-hand-holding-heart"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">About us</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">About us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Support</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Contact us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="fa-solid fa-gears"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Safety and quality</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Cookie settings</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Privacy Policy</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <section>
@@ -139,7 +354,7 @@
 
             <div class="hedd">
                 <ul>
-                    <li><a href="#"> web sell</a></li>
+                    <li><a href="#"> Project </a></li>
                     <li><a href="#"> web sell</a></li>
                     <li><a href="#"> web sell</a></li>
                     <li><a href="#"> web sell</a></li>
@@ -152,7 +367,8 @@
                     <figure>
                         <img src="01.webp" alt="munna">
                     </figure>
-                    <h1>world</h1>
+                    
+                    <a href="https://www.facebook.com/" target="_blank"> <h1>World</h1> </a>
                     <p>munna</p>
                 </div>
                 <div>
@@ -166,7 +382,7 @@
                     <figure>
                         <img src="03.jpg" alt="munna">
                     </figure>
-                    <h1>world</h1>
+                    <a href="www.youtube.com"> <h1>world</h1> </a>
                     <p>munna</p>
                 </div>
                 <div>
@@ -296,5 +512,6 @@
         </div>
     </div>
 </footer>
+<script src="main.js"></script>
 </body>
 </html>
